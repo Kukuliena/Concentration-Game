@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Concentration</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Lunar Concentration Game">
+	<meta name="author" content="Kukuliena">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#161616">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Jura|Lato" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<div class="info-screen show">
+		<div class="board">
+			<h3>Welcome to Concentration!</h3>
+
+			<p>Concentrate your powers now and find pairs by turning two cards at a time. The faster you find them all, the more praise will come.</p>
+
+			<button id="start">Start now!</button>
+		</div>
+	</div>	
+
+	<div class="cg-screen">
+		<div class="board">
+			<h3>You did it!</h3>
+			
+			<p class="stats"></p>
+			
+			<p class="gratulation"></p>
+
+			<button id="start-again">Play again!</button>
+		</div>
+	</div>
+
+	<div class="container">
+		<header>
+			<h1>Concentration</h1>
+		</header>
+
+		<section class="stat-panel">
+			<div id="timer">00:00</div>
+
+			<div class="moves">0 Moves</div>
+
+			<div class="stars">
+				<img class="one here" src="img/star.png" alt="star">
+				<img class="two here" src="img/star.png" alt="star">
+				<img class="three here" src="img/star.png" alt="star">
+			</div>
+
+			<button class="restart">New Game</button>
+		</section>
+
+		<section class="game">
+
+		</section>
+	</div>
+	
+	<script src="js/app.js"></script>
+</body>
+</html>
